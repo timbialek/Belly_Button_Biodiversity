@@ -105,10 +105,10 @@ function buildCharts(sample) {
         ticktext: yticks,
       },
       font: {
-        size: 14,
-        color: 'rgba(245,246,249,1)'},
-      paper_bgcolor: "rgb(43, 43, 44)",
-      plot_bgcolor: "rgb(43, 43, 44)"
+        size: 16,
+        color: 'rgba(245,245,245,1)'},
+      paper_bgcolor: "rgb(43, 43, 43)",
+      plot_bgcolor: "rgb(43, 43, 43)"
     };
     
     // 10. Use Plotly to plot the data with the layout. 
@@ -136,13 +136,13 @@ function buildCharts(sample) {
     }];
 // Create the layout for the bubble chart. 
     var bubbleLayout = {
-      title: "Bacteria Cultures per Sample",
+      title: "<b>Bacteria Cultures per Sample<b>",
       showlegend: false,
-      xaxis: {title: "OTU ID", automargin: true},
+      xaxis: {title: "<b>OTU ID<b>", automargin: true},
       yaxis: {automargin: true},
       hovermode: "closest",
       paper_bgcolor: "rgb(106, 245, 168)",
-      plot_bgcolor: "rgb(43, 43, 44)"
+      plot_bgcolor: "rgb(43, 43, 43)"
 
     };
     //console.log(bubbleLayout);    
@@ -179,6 +179,7 @@ function buildCharts(sample) {
              {range:[6,8], color:'lightgreen'},
              {range:[8,10], color:'green'}
            ],
+
           }
        }
       ];
@@ -187,12 +188,24 @@ function buildCharts(sample) {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       paper_bgcolor: 'white',
-      paper_bgcolor: "rgb(43, 43, 44)",
+      paper_bgcolor: "rgb(43, 43, 43)",
       autosize: true,
       automargin: true,
       font: {
-        color: 'rgba(245,246,249,1)'},
+        color: 'rgba(245,245,245,1)'},
       
+      
+      annotations: [{
+        xref: 'paper',
+        yref: 'paper',
+        x: 0.5,
+        xanchor: 'center',
+        y: -0.25,
+        yanchor: 'center',
+        text: 'The guage indicates how often the belly button is washed per week',
+        color: 'rgba(43, 43, 43)',
+        showarrow: false
+      }]
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
