@@ -7,6 +7,9 @@ body {
   h5{
     color: rgb(247, 247, 247);
   }
+  p{
+    background-color: rgb(43, 43, 43);
+  }
 
   .jumbotron {
     background-image: url("images/bacteria2.jpg");
