@@ -5,10 +5,10 @@ Roza has a partially completed dashboard that she needs to finish. She has a com
 
 This new assignment consists of four technical analysis deliverables. You will submit the following:
 
-Deliverable 1: Create a Horizontal Bar Chart
-Deliverable 2: Create a Bubble Chart
-Deliverable 3: Create a Gauge Chart
-Deliverable 4: Customize the Dashboard
+*Deliverable 1: Create a Horizontal Bar Chart
+*Deliverable 2: Create a Bubble Chart
+*Deliverable 3: Create a Gauge Chart
+*Deliverable 4: Customize the Dashboard
 
 ## Resources
 * Software/Languages: JavaScript, HTML, CCS, Bootstrap 4, Visual Studio Code
@@ -16,3 +16,10 @@ Deliverable 4: Customize the Dashboard
 
 ## Results
 
+Deliverables 1 -3
+
+![](https://github.com/timbialek/Belly_Button_Biodiversity/blob/main/Images/ViewBeforeEnhancements.PNG)
+
+Deliverable 4
+
+![](https://github.com/timbialek/Belly_Button_Biodiversity/blob/main/Images/ViewWithEnhancements.PNG)
