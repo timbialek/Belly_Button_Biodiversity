@@ -22,4 +22,4 @@ Deliverables 1 -3
 
 Deliverable 4
 
-![](https://github.com/timbialek/Belly_Button_Biodiversity/blob/main/Images/ViewWithEnhancements.PNG)
+![](https://github.com/timbialek/Belly_Button_Biodiversity/blob/main/Images/ViewWithEnhancements1.PNG)
